@@ -22,10 +22,10 @@ namespace CalculatorApp
 
                 // Operator Selection
                 Console.WriteLine("Choose an operator from the following list:");
-                Console.WriteLine("\t - Add");
-                Console.WriteLine("\t - Subtract");
-                Console.WriteLine("\t - Multiply");
-                Console.WriteLine("\t - Divide");
+                Console.WriteLine("\t+ - Add");
+                Console.WriteLine("\t- - Subtract");
+                Console.WriteLine("\t* - Multiply");
+                Console.WriteLine("\t/ - Divide");
                 Console.Write("Your option?");
 
                 switch (Console.ReadLine())
@@ -45,6 +45,13 @@ namespace CalculatorApp
                     default: 
                         Console.WriteLine("Invalid option. Please try again.");
                         break;
+                }
+
+                Console.WriteLine("------------------------\n");
+                Console.WriteLine("Would you like to perform another calculation? (y/n)");
+                if (Console.ReadLine().ToLower() != "y")
+                {
+                    continueCalculation = false;
                 }
             }
         }

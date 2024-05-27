@@ -1,0 +1,15 @@
+/Users/emmanue/projects/simple-calculator/bin/Debug/net8.0/simple-calculator
+/Users/emmanue/projects/simple-calculator/bin/Debug/net8.0/simple-calculator.deps.json
+/Users/emmanue/projects/simple-calculator/bin/Debug/net8.0/simple-calculator.runtimeconfig.json
+/Users/emmanue/projects/simple-calculator/bin/Debug/net8.0/simple-calculator.dll
+/Users/emmanue/projects/simple-calculator/bin/Debug/net8.0/simple-calculator.pdb
+/Users/emmanue/projects/simple-calculator/obj/Debug/net8.0/simple-calculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/emmanue/projects/simple-calculator/obj/Debug/net8.0/simple-calculator.AssemblyInfoInputs.cache
+/Users/emmanue/projects/simple-calculator/obj/Debug/net8.0/simple-calculator.AssemblyInfo.cs
+/Users/emmanue/projects/simple-calculator/obj/Debug/net8.0/simple-calculator.csproj.CoreCompileInputs.cache
+/Users/emmanue/projects/simple-calculator/obj/Debug/net8.0/simple-calculator.sourcelink.json
+/Users/emmanue/projects/simple-calculator/obj/Debug/net8.0/simple-calculator.dll
+/Users/emmanue/projects/simple-calculator/obj/Debug/net8.0/refint/simple-calculator.dll
+/Users/emmanue/projects/simple-calculator/obj/Debug/net8.0/simple-calculator.pdb
+/Users/emmanue/projects/simple-calculator/obj/Debug/net8.0/simple-calculator.genruntimeconfig.cache
+/Users/emmanue/projects/simple-calculator/obj/Debug/net8.0/ref/simple-calculator.dll
