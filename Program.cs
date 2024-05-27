@@ -19,6 +19,33 @@ namespace CalculatorApp
                 
                 Console.WriteLine("Type another number, and then press Enter:");
                 double num2 = Convert.ToDouble(Console.ReadLine());
+
+                // Operator Selection
+                Console.WriteLine("Choose an operator from the following list:");
+                Console.WriteLine("\t - Add");
+                Console.WriteLine("\t - Subtract");
+                Console.WriteLine("\t - Multiply");
+                Console.WriteLine("\t - Divide");
+                Console.Write("Your option?");
+
+                switch (Console.ReadLine())
+                {
+                    case "+":
+                        Console.WriteLine($"Your result: {num1} + {num2} = " + (num1 + num2));
+                        break;
+                    case "-":
+                        Console.WriteLine($"Your result: {num1} - {num2} = " + (num1 - num2));
+                        break;
+                    case "*":
+                        Console.WriteLine($"Your result: {num1} * {num2} = " + (num1 * num2));
+                        break;
+                    case "/":
+                        Console.WriteLine($"Your result: {num1} / {num2} = " + (num1 / num2));
+                        break;
+                    default: 
+                        Console.WriteLine("Invalid option. Please try again.");
+                        break;
+                }
             }
         }
     }
